@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto Slab", serif;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .mySlides {
+    
+    display:none;
+    width: 70%;
+    height: 600px;
+    text-align: center;
+  }
+  
+  /*list*/
+  ul {
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+  }
+  .imgCard{
+    border-radius: 100%;
+   
+  }
+  /*home img*/
+  li {
+    top: 5%;
+    display: inline-block;
+    padding: 3%;
+  }
+  
+  li a {
+    color: white;
+    font-size: 15px;
+  }
+  /* HOME */
+  
+  #gallery{
+    margin-bottom: 70px;
+  }
+  
+  #home {
+    background-image: url(https://1712507217.rsc.cdn77.org/wp-content/uploads/2017/05/3d-printing-drugs-2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content-inner {
+    margin: 2%;
+    padding: 5%;
+    text-align: center;
+    padding-top: 5%;
+    overflow: hidden;
+  }
+  
+  /*about header */
+  p {
+    display: block;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  .name {
+    font-size: 62px;
+    font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  /*text on home img*/
+  .description {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  /*icon*/
+  .fa {
+    color: black;
+    text-align: center;
+  }
+  
+  .fa:hover {
+    color: white;
+  }
+  
+  /*about */
+  
+  .intro_n {
+    font-size: 25px;
+  }
+  
+  .about-container {
+    background-color: white;
+    padding-top: 125px;
+    padding-bottom: 75px;
+  }
+  
+  /*about us p*/
+  .intro {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+  }
+  
+  /*card*/
+  .column {
+    width: 25%;
+    height: 75%;
+    float: left;
+    padding: 100px 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 15px;
+  }
+  /*names*/
+  .title {
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .h1 {
+    color: black;
+    font-size: 30px;
+  }
+  
+  .skills {
+    color: black;
+    font-size: 20px;
+  }
+  
+  /*card icon */
+  a {
+    font-size: 22px;
+    color: black;
+  }
+  
+  /*contact*/
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  input[type="Message"],
+  select,
+  textarea {
+    position: relative;
+    height: 47px;
+    line-height: 47px;
+    border: 2px solid #e3e3e3;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    color: black;
+  }
+  
+  .contact {
+    text-align: center;
+  }
+  
+  #contact {
+    padding-left: 30px;
+    padding-right: 50px;
+    border: 2px solid black;
+  }
+  
+  #submit-message {
+    border-radius: 2rem;
+    background-color: white;
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 100px;
+  }
+  
