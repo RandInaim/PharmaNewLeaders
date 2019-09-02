@@ -135,7 +135,7 @@ p {
 }
 @media screen and (max-width: 600px) {
 	.homeImg {
-		width: 350px;
+		width: 320px;
 		height: 200px;
 		vertical-align: middle;
 	}
